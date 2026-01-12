@@ -230,6 +230,24 @@
           ],
           "default": false
         },
+        "pass": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "location": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "BRAZIL",
+            "USA",
+            "EUROPE",
+            "ASIA"
+          ]
+        },
         "status": {
           "type": [
             "string",
